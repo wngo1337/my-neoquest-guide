@@ -1,0 +1,158 @@
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-image: url("../images/fadedbackground.png");
+  font-family: "Comic Sans MS", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto 9fr;
+  grid-template-rows: 1fr auto auto;
+}
+
+h1 {
+  a:link {
+    text-decoration: none;
+    color: blue;
+  }
+  a:visited {
+    text-decoration: none;
+    color: blue;
+  }
+  a:hover {
+    text-decoration: none;
+    color: blue;
+  }
+  a:active {
+    text-decoration: none;
+    color: blue;
+  }
+}
+
+p {
+  background-color: #f0f0f0;
+  padding: 5px;
+}
+
+#header {
+  display: flex;
+  margin-top: 0;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-bottom: solid;
+  align-items: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-end: 1;
+  /* background-color: limegreen; */
+}
+
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-end: 2;
+  position: sticky;
+  width: 185px;
+  height: auto;
+  left: 0;
+  margin: 0;
+  padding: 10px;
+  border-top: 2px solid forestgreen;
+  border-right: 2px solid forestgreen;
+  border-bottom: 2px solid forestgreen;
+}
+
+#sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10px;
+  display: block;
+  transition: background-color 0.2s ease;
+}
+
+#sidebar a:hover {
+  background-color: lightgreen;
+  color: #000;
+}
+
+#content {
+  min-height: 55vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  grid-column-start: 2;
+  grid-row-end: 2;
+  align-items: center;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  /* flex-grow: 1; */
+  align-items: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  text-align: center;
+  justify-content: flex-end;
+}
+
+.image-with-text {
+  text-align: center;
+  margin-left: auto;
+}
+
+img {
+  max-width: 75%;
+  max-height: auto;
+}
+
+.red-text {
+  color: red;
+}
+
+.blue-text {
+  color: blue;
+}
+
+.green-text {
+  color: green;
+}
+
+.orange-text {
+  color: darkorange;
+}
+
+.bold-item {
+  font-weight: bold;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.image-container {
+  align-items: center;
+  max-width: 25%;
+}
+
+.bordered-table,
+th,
+tr,
+td {
+  border: 1px solid black;
+}

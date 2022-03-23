@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>A Commentary-Based Neoquest Guide</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <section id="header">
+        <h1><a href="index.html">A Commentary-Based Neoquest Guide</a></h1>
+        <script src="scripts/myscripts.js"></script>
+        <div class="image-with-text">
+          <img
+            src="images/archmagus.png"
+            onclick="playAudio('audio/fillmore.wav');toggleCaption('header-caption', 'lol')"
+          />
+          <figcaption id="header-caption"></figcaption>
+        </div>
+      </section>
+      <section>
+        <nav id="sidebar">
+          <ul>
+            <a href="index.html">Home</a>
+            <a href="introduction.html">Introduction</a>
+            <a href="mechanics.html">Gameplay Mechanics</a>
+            <a href="weapons_and_armour.html">Weapons and Armour</a>
+            <a href="skills_analysis.html">Skills Analysis</a>
+            <a href="recommended_builds.html">Recommended Builds</a>
+            <a href="boss_analysis.html">Boss Analysis</a>
+            <a href="walkthrough.html">Walkthrough</a>
+          </ul>
+        </nav>
+      </section>
+
+      <section id="content">
+        <h2>Weapons and Armour</h2>
+        <p>
+          Now we're getting to the fun stuff. With five skill trees and five
+          weapons for each one, there's a fair amount of customizability in
+          terms of what you can go for at each stage of the game.
+        </p>
+
+        <p>
+          When you're looking at the tables, you will find that the first two
+          tiers of each weapon type do nothing, so is there even a difference at
+          all? You would know the answer if you read the previous section. Your
+          weapon type influences the proc rate and/or damage of various passive
+          skills in your skill trees. If you invest in a particular skill tree,
+          <span class="bold-item green-text"
+            >choose a matching wand to maximize the effect of your skills</span
+          >. That being said, I'm not going to do a writeup on tier 1 or tier 2
+          weapons because there is nothing else interesting to cover. As I've
+          stated before, you can check out
+          <a href="https://neoquest.guide" target="_blank">neoquest.guide</a>
+          for detailed info on proc rates. I think you'd be surprised at how low
+          some of the rates are.
+        </p>
+
+        <b>Fire Weapons</b>
+        <table name="fireWeapons" class="bordered-table">
+          <tr>
+            <th>Weapon Name</th>
+            <th>Weapon Damage</th>
+            <th>Special Skills</th>
+          </tr>
+          <tr>
+            <td>Red Wand</td>
+            <td>3</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td>Gold Wand</td>
+            <td>6</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td>Volcano Wand</td>
+            <td>10</td>
+            <td>
+              Randomly cast <span class="red-text bold-item">Lava Flow</span> to
+              deal 20 Fire damage to the enemy
+            </td>
+          </tr>
+          <tr>
+            <td>Fire Staff</td>
+            <td>15</td>
+            <td>
+              Lets the user cast the
+              <span class="red-text bold-item">Magma Burst</span> ability,
+              dealing 40 Fire damage to the enemy. Is recastable after a
+              cooldown period
+            </td>
+          </tr>
+          <tr>
+            <td>Firedrop Staff</td>
+            <td>20</td>
+            <td>
+              Randomly cast
+              <span class="red-text bold-item">Blast Furnace</span>, dealing 30
+              Fire damage to the enemy for three turns (90 damage total)
+            </td>
+            <td>5% (56/1102)</td>
+            <td></td>
+          </tr>
+        </table>
+        <p>
+          So you're interested in Fire weapons. I hate to say it, but you're
+          probably going to be disappointed until about level 42. Fire itself is
+          not a bad tree, I can't say the same for most of the weapons.
+        </p>
+        <p>
+          If I didn't know any better, I would have thought that the Volcano
+          Wand was bugged with how little it procs. It may as well not have an
+          ability at all, and its only purpose is to increase the damage of Fire
+          Weapons when it procs.
+        </p>
+        <p>
+          Moving on to the Fire Staff, what a unique name. Anyway, you get a
+          skill that lets you deal 40 damage on command. Sounds pretty good,
+          right? Well, not exactly. At this point in the game, if you are
+          investing in Fire, your basic attacks plus Fire Weapons skill procs
+          are probably doing around that much damage anyway. Heck, you have
+          Fireball that does 45 damage on a way lower cooldown. It's fine, but
+          it's not great. Then again, you probably don't have much of a choice.
+        </p>
+        <p>
+          The Firedrop Staff is a completely different beast from any Fire
+          weapon you have seen so far. Recall that the flaw of the Fire Staff
+          was that it made you use a turn on an ability just to deal the same
+          amount of damage as your basic attack. The Firedrop Staff solves this
+          issue by making its skill a powerful passive burn in the form of Blast
+          Furnace. The ability has no cooldown, and multiple procs stack the
+          duration. This weapon makes random encounters a breeze and also deals
+          respectable damage against bosses when it isn't resisted. Unlike other
+          fire weapons, this one actually does the work for you.
+        </p>
+
+        <b>Ice Weapons</b>
+        <table name="iceWeapons" class="bordered-table">
+          <tr>
+            <th>Weapon Name</th>
+            <th>Weapon Damage</th>
+            <th>Special Skills</th>
+          </tr>
+          <tr>
+            <td>Blue Wand</td>
+            <td>3</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td>Steel Wand</td>
+            <td>6</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td>Glacier wand</td>
+            <td>10</td>
+            <td>
+              Randomly cast <span class="blue-text bold-item">Avalanche</span>,
+              dealing 20 ice damage to the enemy
+            </td>
+          </tr>
+          <tr>
+            <td>Ice Staff</td>
+            <td>15</td>
+            <td>
+              Lets the user cast
+              <span class="blue-text bold-item">Ice Shield</span>: for the next
+              6 turns, successful basic attacks against you cause the attacker
+              to take 10 ice damage
+            </td>
+          </tr>
+          <tr>
+            <td>Iceheart Staff</td>
+            <td>20</td>
+            <td>
+              Lets the user cast
+              <span class="blue-text bold-item">Ice Wind</span>: For the next
+              several rounds, randomly freeze (an actual stun unlike Heart of
+              Ice) the enemy for one turn
+            </td>
+          </tr>
+        </table>
+        <p>
+          So you want to use Ice weapons. The good news is that your endgame
+          staff is among the best in the game. The bad news is that your midgame
+          options are essentially useless, and I really do mean it when I say
+          that.
+        </p>
+        <p>
+          Similar to how half of the Fire and Ice skill trees are carbon copies
+          of each other, the Avalanche Wand may very well be a copy of the
+          Volcano Wand. It's not very interesting, but it gets the job done to
+          increase your Ice Weapons damage and enable Heart of Ice.
+        </p>
+        <p>
+          On first glance, maybe the Ice Staff sounds sort of interesting. It
+          basically puts a damage shield on you, dealing backlash damage to the
+          enemy. The only problem? 10 damage at this stage of the game is almost
+          laughable, not to mention how the enemy needs to land a successful
+          basic attack on you for it to even trigger. The only reason it's an
+          upgrade over the Avalanche Wand is the higher weapon damage. Use this
+          wand only for as long as you have to and push for the next tier.
+        </p>
+        <p>
+          The Iceheart Staff is possibly my favourite weapon in the game, and
+          for very good reason. Not only does it fix Ice's flaw of not having a
+          real stun, but Ice Wind consistently works on any opponent and with
+          any playstyle. I don't believe that it can be resisted at all, so the
+          question is only whether you get a proc or not. It doesn't matter if
+          you want to spam basic attacks or all in with your ten points in
+          Glacier Strike. You cast the skill and go back to what you were doing
+          while it stuns the opponent over and over. The weapon is great for
+          farming and bossfighting, and Ice Wind may very well be the best
+          castable skill in the game. The Ice skill tree may fall off lategame,
+          but this weapon completely makes up for it. Do yourself a favour an
+          try it out even if you aren't running an Ice build.
+        </p>
+
+        <b>Shock Weapons</b>
+        <table name="shockWeapons" class="bordered-table">
+          <tr>
+            <th>Weapon Name</th>
+            <th>Weapon Damage</th>
+            <th>Special Skills</th>
+          </tr>
+          <tr>
+            <td>Yellow Wand</td>
+            <td>3</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td>Bronze Wand</td>
+            <td>6</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td>Storm Wand</td>
+            <td>10</td>
+            <td>
+              Randomly cast
+              <span class="orange-text bold-item">Thunder Strike</span>,
+              stunning the enemy for one turn
+            </td>
+          </tr>
+          <tr>
+            <td>Shock Staff</td>
+            <td>15</td>
+            <td>
+              Lets the user cast
+              <span class="orange-text bold-item">Weakness</span>, lowering the
+              enemy's defense against basic attacks
+            </td>
+          </tr>
+          <tr>
+            <td>Thunderstar Staff</td>
+            <td>20</td>
+            <td>
+              Randomly casts
+              <span class="orange-text bold-item">Staggering Stun</span>,
+              stunning the enemy for two rounds
+            </td>
+            <td>5% (95/1880)</td>
+          </tr>
+        </table>
+        <p>
+          I think everyone who knows anything about this game knows just how
+          broken the Shock skill tree is, and Shock weapons do a good job at
+          building on that. Despite the simplicity of the status effect, stun is
+          the strongest status effect in the game, and these weapons generally
+          increase your chance of inflicting it on your enemies.
+        </p>
+        <p>
+          Like I said above, Shock weapons are generally simple, and the Storm
+          Wand is no exception. It amplifies your chance of proccing Shock
+          Weapons, and it also has the chance to give you a free turn. What's
+          not to like? The proc rate is just as bad as the other weapons in this
+          tier, but we don't talk about that.
+        </p>
+        <p>
+          Moving on, the Shock Staff's active skill doesn't make much sense to
+          me in terms of synergy. Lowering the enemy's physical defense so you
+          can hit harder is useful, but the point of Shock is rendering the
+          enemy useless while you wail on them. The extra damage should just be
+          a bonus. It's not my favourite weapon, but it's perfectly functional.
+        </p>
+        <p>
+          The Thunderstar Staff is very simple and very good. I think you'll
+          notice that there is a general trend here that the passive skills of
+          final weapon upgrades are very powerful. Staggering Stun offers you up
+          to two turns of stun for free while not taking up your turn to
+          activate it. If you are running Shock, you will want it simply for the
+          sake of proccing Shock Weapons more often. The staff is very powerful
+          for both boss fights and random encounters, saving you from entire
+          turns of damage, which could mean 100+ HP a turn in the endgame.
+          Highly recommended for Shock builds.
+        </p>
+
+        <b>Spectral Weapons</b>
+        <table name="spectralWeapons" class="bordered-table">
+          <tr>
+            <th>Weapon Name</th>
+            <th>Weapon Damage</th>
+            <th>Special Skills</th>
+          </tr>
+          <tr>
+            <td>Black Wand</td>
+            <td>3</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td>Iron Wand</td>
+            <td>6</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td>Spectral Wand</td>
+            <td>10</td>
+            <td>
+              Randomly cast Absorbing Stone, absorbing a certain amount of an
+              enemy's incoming basic attack
+            </td>
+          </tr>
+          <tr>
+            <td>Spectral Staff</td>
+            <td>15</td>
+            <td>
+              Lets the user cast <span class="bold-item">Rage of Light</span>,
+              increasing your attack and defence for a certain number of turns.
+              Is recastable after a cooldown period
+            </td>
+          </tr>
+          <tr>
+            <td>Shadowgem Staff</td>
+            <td>20</td>
+            <td>
+              Lets the user cast
+              <span class="bold-item">Elemental Resistance</span>, increasing
+              your resistance against all elemental blasts for a certain number
+              of turns. Is recastable after a cooldown period
+            </td>
+          </tr>
+        </table>
+        <p>
+          The Spectral weapon selection provides a surprisingly versatile set of
+          abilities, with the endgame staff doing something a bit different from
+          what you might expect. I say this because the entire Spectral tree is
+          focused solely on negating and countering enemy basic attacks, and it
+          is very powerful at doing so, but I will talk about it a bit later.
+        </p>
+        <p>
+          The Mountain Wand is an extremely forgettable weapon. Every once in a
+          blue moon, its ability will negate a portion of the enemy's attack.
+          Granted, at the level you get it, the damage negated isn't negligible,
+          but the proc rate is abysmal like most other weapons in this tier.
+          Even worse, the lizard enemies right after Gors on the way to Rollay
+          focus especially on heavy elemental skill usage, further decreasing
+          the weapon ability's utility. All that said, it still provides the
+          bonus to Spectral Weapons' defence increase, potentially making it
+          worth it after Rollay.
+        </p>
+        <p>
+          The Spectral Staff has the misfortune of being in would I could call a
+          pretty average tier of weapons with the exception of one. It is stil
+          an upgrade over the Mountain Wand, and you do get the castable
+          <span class="bold-item">Rage of Light</span>, but its effects are hard
+          noticeable in combat. Of course, if you are running a Spectral build,
+          then you may have fun experimenting with this weapon for the boost to
+          Spectral Weapons, but the healing from the Life Staff may still be
+          more desirable.
+        </p>
+        <p>
+          Lastly, the Shadowgem Staff has a very interesting niche. This is the
+          weapon that I mentioned that goes out of its way to provide something
+          that its skill tree does not. If you couldn't tell from the name,
+          Elemental Resistance raises your resistance to fire, ice, and stun
+          attacks. I guess the intention here was to provide some defence
+          against what the Spectral tree itself does not cover. I think it's an
+          interesting idea and actually quite a strong ability against endgame
+          bosses, but there are a few things to note about it. Firstly, it
+          doesn't provide resistance against the 100 HP drains that are very
+          common in the endgame (I don't think anything does), and the cooldown
+          is a little long for the effect, not to mention how you have to spend
+          a valuable turn casting a purely defensive skill that doesn't provide
+          value against basic attacks. There is an argument to use this weapon
+          with heavy Shock/Spectral builds to maximize your resistance against
+          those deadly elemental attacks from endgame bosses, but I do prefer
+          both of those trees' endgame weapons over the Shadowgem Staff.
+          Nonetheless, this is still a genuinely good endgame weapon that grants
+          the Spectral tree its full power at nullifying basic attacks, and I
+          recommend at least giving it a try.
+        </p>
+
+        <b>Life Weapons</b>
+        <table name="lifeWeapons" class="bordered-table">
+          <tr>
+            <th>Weapon Name</th>
+            <th>Weapon Damage</th>
+            <th>Special Skills</th>
+          </tr>
+          <tr>
+            <td>White Wand</td>
+            <td>3</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td>Silver Wand</td>
+            <td>6</td>
+            <td>None</td>
+          </tr>
+          <tr>
+            <td>Nature Wand</td>
+            <td>10</td>
+            <td>
+              Randomly cast <b>Spirit of Oak</b>, healing the user for 25 hp.
+            </td>
+          </tr>
+          <tr>
+            <td>Life Staff</td>
+            <td>15</td>
+            <td>
+              Lets the user cast <b>Spirit of Growth</b>, healing the user for
+              100 hp
+            </td>
+          </tr>
+          <tr>
+            <td>Moonstone Staff</td>
+            <td>20</td>
+            <td>
+              Heals the user for 4 hp every turn. In addition, randomly cast
+              <b>Spirit of Life</b>, healing the user for 30 hp
+            </td>
+          </tr>
+        </table>
+        <p>
+          Life weapons are arguably the most universally useful weapons in the
+          game. You will always need more HP, and they do a good job of giving
+          it to you. That's literally it. The best part about Life weapons is
+          that the Life skill tree basically doesn't depend on the usual weapon
+          + skill tree synergy to enhance its skills. You can use Life skills
+          with other weapon types, and that means you can also use Life weapons
+          with other skill trees quite effectively.
+        </p>
+        <p>
+          The Nature Wand is arguably broken for when you usually craft it. You
+          are probably sitting right around level 22 (130 hp) when you beat
+          Gors, so this thing is healing you almost 20% of your health bar when
+          it procs, and the proc rate isn't completely abysmal like the other
+          weapons in this tier either. For reference, the best Life weapon in
+          the game heals you for 30 hp on skill proc. Maybe that all doesn't
+          sound like much to you, but don't underestimate the number of potions
+          this weapon will save you. If you are running a full Life build along
+          with it (highly recommended), you will hardly have to touch your
+          potions.
+        </p>
+        <p>
+          The Life Staff is a very famous weapon, and for good reason. 100 HP is
+          a huge amount at any point in the game, and you get this thing around
+          level 33 (185 hp). That's more than half your health. Pretty good,
+          right? But it gets better. You might look at the massive 21 turn
+          cooldown on this thing and think that it's a little high even for such
+          a powerful skill, and I would agree. However, you have to remember
+          that cooldowns don't carry over battles. That's right: you get a free
+          100 HP heal available for every battle. That makes the Life Staff
+          beyond the best farming weapon in this tier. It lets you push against
+          tougher enemies for better experience gains, and it basically tops you
+          up after every battle if you play your cards right. Now, I actually
+          recommend skipping tier 4 weapons entirely depending on how you play,
+          but we'll get into that later. If you decide to play the Temple of Roo
+          section of the game, then definitely get this weapon. It is by far the
+          best weapon in this tier.
+        </p>
+        <p>
+          Fun fact: The Moonstone Staff used to heal 45 HP on its proc in the
+          game's early days, but it was so busted that they nerfed it down to 30
+          HP. Even then, it's still one of the best weapons in the game. Let's
+          talk about the passive heal first. 4 HP per turn might not sound like
+          much, but that damage you take during battles adds up. Over a 20 turn
+          battle, you will heal 80 extra HP for free. That's almost a full
+          Greater Healing Potion, and we haven't even talked about the Moonstone
+          Staff's skill procs yet. Spirit of Life randomly heals you for 30 HP,
+          and it procs decently often. When you're sitting at half HP, you'll be
+          surprised how often you get a couple of procs in a row. Anyway, you
+          get the monster healing of Life with the attack power of an endgame
+          weapon, and the weapon fits into any build. I recommend this staff for
+          essentially anyone in the endgame because it's so universally useful.
+        </p>
+        <b>Summary</b>
+        <p>
+          So now that you have learned about all the weapons in the game, maybe
+          you're wondering which ones you should be using throughout the game.
+          First, let me say this: every single weapon in the game is good enough
+          to get you through the game area where you receive it. Some are far
+          worse than others, but if want to make a certain weapon work, you can.
+          Secondly, just match your weapon to the skill tree(s) that you are
+          focusing on to maximize your skill + weapon synergy. It's easy to
+          remember and it works. With that said, let me summarize what I think
+          are the best weapons in the game.
+        </p>
+        <p>
+          Tier 1: These weapons are all carbon copies of each other except that
+          they boost their respective skill tree passive skills where
+          applicable. If I had to choose one, the Blue Wand enables you to proc
+          Ice Weapons for multiple times greater damage than your regular attack
+          at that stage in the game, though that's more about the Ice skill tree
+          than anything. If you want an accelerated start, Ice is the way to go.
+          Otherwise, the White Wand is a very solid pick if you are going Life
+          for healing as you move around the map.
+        </p>
+        <p>
+          Tier 2: These weapons aren't anything special either... No abilities
+          means that they again only differ by their improvements to your skill
+          procs. At this point in the game, Ice is still extremely strong, by
+          far the best offensive magic in the game.
+        </p>
+        <p>
+          Tier 3: The Nature Wand is the best weapon of this tier without a
+          doubt, but if you are running Fire or Ice, I would say that the skill
+          + weapon synergy actually takes priority here. At this point of the
+          game, your Ice/Fire Weapons procs are probably still dealing close to
+          80% of your basic attack damage.
+        </p>
+        <p>
+          Tier 4: Once again, the Life Staff is the big winner of this weapon
+          tier. It's hard to match the utility of a free 100 HP heal every 20~
+          turns, available at the beginning of every encounter. No other staff
+          here comes close, though Fire/Ice users may still consider running
+          weapons matching their tree for the extra damage.
+        </p>
+        <p>
+          Tier 5: The last set of weapons that you get are different from the
+          previous tiers because each one is very powerful in its own way.
+          Again, let me reiterate that I would recommend simply matching your
+          weapon to your most invested skill tree for maximum synergy, but
+          otherwise there are two standout choices here.
+        </p>
+        <p>
+          The Moonstone Staff is undoubtedly the best staff
+          <span class="bold-item">for random encounters</span> because of its
+          passive healing. From the Mountain Fortress to the end of the game,
+          the number of potions it will save you via its 4 HP heal per turn and
+          random 30 HP bursts is incredible, and the weapon is even more
+          valuable as potentially your only source of sustain if you have not
+          invested in Life skills. There is no equal to this weapon's healing
+          utility when grinding or moving around the map.
+        </p>
+        <p>
+          In my experience, the best weapon in isolation
+          <span class="bold-item">for boss fights</span> is the Iceheart Staff.
+          The relatively reliable stun utility it provides can disrupt dangerous
+          attack patterns from the enemy, and it oftens saves you from taking
+          multiple turns of damage each cast. The second candidate for this
+          title is unsurprisingly the Moonstone Staff because of its healing
+          utility. You can never have too much HP, and you get the full value of
+          the Moonstone Staff completely via passive regeneration and procs.
+          It's useful even when you are stunned, and there will be times where
+          you survive a stunblast and the remaining HP you have is equal to the
+          healing you received from the staff. It slots well into every single
+          build, and it is just a fantastic default choice if you have any
+          doubts about what to equip.
+        </p>
+      </section>
+      <section id="footer">
+        <div class="image-container">
+          <img
+            src="images/tubbs_full.png"
+            alt="Tubbs"
+            onclick="playAudio('audio/fillmore8.wav');toggleCaption('footer-caption', 'lmao')"
+          />
+          <figcaption id="footer-caption"></figcaption>
+        </div>
+        &copy; 2024 William Ngo. All Rights Reserved or something like that
+      </section>
+    </div>
+  </body>
+</html>

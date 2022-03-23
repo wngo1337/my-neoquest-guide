@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>A Commentary-Based Neoquest Guide</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <section id="header">
+        <h1><a href="index.html">A Commentary-Based Neoquest Guide</a></h1>
+        <script src="scripts/myscripts.js"></script>
+        <div class="image-with-text">
+          <img
+            src="images/archmagus.png"
+            onclick="playAudio('audio/fillmore.wav');toggleCaption('image-caption', 'lol')"
+          />
+          <figcaption id="image-caption"></figcaption>
+        </div>
+      </section>
+
+      <section>
+        <nav id="sidebar">
+          <ul>
+            <a href="index.html">Home</a>
+            <a href="introduction.html">Introduction</a>
+            <a href="mechanics.html">Gameplay Mechanics</a>
+            <a href="weapons_and_armour.html">Weapons and Armour</a>
+            <a href="skills_analysis.html">Skills Analysis</a>
+            <a href="recommended_builds.html">Recommended Builds</a>
+            <a href="boss_analysis.html">Boss Analysis</a>
+            <a href="walkthrough.html">Walkthrough</a>
+          </ul>
+        </nav>
+      </section>
+
+      <section id="content">
+        <h2>Boss Analysis</h2>
+        <p>
+          Here, we are going to talk about every single boss in the game. Yes,
+          that includes the Archmagus of Roo even if I recommend skipping him in
+          my walkthrough. Aside from skill tree analysis, this section is
+          probably my favourite and one of the most interesting parts of this
+          guide.
+        </p>
+        <p>
+          One of the funny things about bosses in Neoquest is that the majority
+          of them can be trivialized by overlevelling. Bosses are generally safe
+          to fight at one level above (with some very important exceptions), and
+          two or three levels above is often overkill. However, you should
+          remember that level difference is tied to hit rate, so being one or
+          two levels down on a boss could be disastrous.
+        </p>
+
+        <table>
+          <caption>
+            Bosses
+          </caption>
+          <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Special Abilities</th>
+            <th>Analysis</th>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="images/xantan_the_foul.png"
+                alt="Image of Xantan the Foul"
+              />
+            </td>
+            <td>Xantan the Foul</td>
+            <td>
+              <ul>
+                <li>
+                  20 damage <span class="red-text">fire</span>/<span
+                    class="blue-text"
+                    >ice</span
+                  >
+                  blasts
+                </li>
+              </ul>
+              <p class="align-center">
+                For reference: 20/80 =
+                <span class="green-text align-center"
+                  >25% of your total health</span
+                >
+                at level 12.
+              </p>
+            </td>
+            <td>
+              <p>
+                Xantan is the very first boss that you will meet in the game,
+                appearing at the end of the fourth floor of the Dank Cave. There
+                is nothing exceptional about him except that he can hit you with
+                20 damage elemental blasts, dealing a significant chunk of your
+                health at this point in the game. This shouldn't be a problem if
+                you are at the recommended level and have a couple of Standard
+                Healing Potions lying around in case you get very unlucky and he
+                hits you with more elemental blasts than expected.
+              </p>
+              <p>
+                In summary, keep attacking and keep your HP above 20, maybe 40
+                if you want to avoid any stress. Clap Xantan and then go get
+                your nice weapon and armour upgrades back at Neopia City.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="images/kreai.png" alt="Image of Kreai" />
+            </td>
+            <td>Kreai</td>
+            <td>
+              <ul>
+                <li>2-turn stun</li>
+                <li class="bold-item">
+                  40 damage <span class="red-text">fire</span>/<span
+                    class="blue-text"
+                    >ice</span
+                  >
+                  blasts
+                </li>
+              </ul>
+              <p>
+                For reference: 40/105 =
+                <span class="red-text bold-item">38% of your total health</span>
+                at level 17.
+              </p>
+            </td>
+            <td>
+              <p>
+                Kreai is the first boss that you will fight in the Jungle Ruins.
+                Of course, you could do some sequence breaking and fight Gors
+                and Rollay first, but that would make no sense. Anyway, Kreai is
+                what I would consider to be your first real challenge in
+                Neoquest. He hits very hard with his elemental blasts, and his
+                2-turn stun introduces an element of unpredictability in this
+                fight.
+              </p>
+              <p>
+                What does this mean for you? It's means that you shouldn't sleep
+                on Kreai's damage output. Any time that you are under 80 HP and
+                not healing is a potential death courtesy of a potent combo:
+                <span class="red-text"
+                  >2-turn stun + elemental blast + elemental blast</span
+                >, wiping out the majority of your health bar without you being
+                able to do anything about it. You would say that the chance is
+                quite low, but it's a long walk back if you lose, and it has
+                certainly happened to me.
+              </p>
+              <p>
+                As such, the guideline here is to always keep your health above
+                80, and you should not have any major problems with Kreai.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="images/gors_the_mighty.png" alt="Image of Gors" />
+            </td>
+            <td>Gors the Mighty</td>
+            <td>
+              <ul>
+                <li class="bold-item">
+                  2-turn stun + 30 damage
+                  <span class="red-text">fire</span>/<span class="blue-text"
+                    >ice</span
+                  >
+                  blasts
+                </li>
+                <li>5-turn poison - 15 damage per tick</li>
+                <li>20% health restore</li>
+              </ul>
+              <p>
+                This set of skills is much more dangerous than it looks. If Gors
+                dualcasts his stun + elemental blast combo, you will lose with
+                very little counterplay.<br /><br />
+                For reference:
+                <br />
+                double stunblast with poison active = 2*(30 + 15)/130 =
+                <span class="red-text bold-item">
+                  69% of your total health at level 22 + unactionable for 3
+                  turns
+                </span>
+              </p>
+            </td>
+            <td>
+              <p>
+                Gors is the second boss you meet in the Jungle Ruins, and he is
+                a whole different beast than Kreai. Not only is he the hardest
+                part of the Jungle Ruins, but I would go as far as saying that
+                he is one of the toughest bosses in the game. If you didn't read
+                his ability description properly, you might be asking why
+                because he actually deals less damage than Kreai at first
+                glance.
+              </p>
+              <p>
+                Well, remember when I said that Kreai was dangerous because of
+                his stun followed by heavy elemental damage on the next turn?
+                Gors is the first of the bosses to take this to the next level,
+                hitting you with a 2-turn stun <strong>and</strong> blasting you
+                with elemental damage in the same turn. This means that not only
+                are you chunked for roughly 23% of your total health at this
+                point of the game in one turn, but you also can't move for two
+                turns afterwards while he wails on you. If that wasn't bad
+                enough, he can also apply a poison DoT on you that doesn't take
+                up his turn after its initial cast, meaning that you can be
+                stunned, poisoned, and getting hit without being able to do
+                anything. Lastly, Gors is the first of several bosses that
+                introduce the nightmare scenario of stunblast chains, chunking
+                your healthbar and leaving you unactionable for a total of 4
+                turns (or worse). If this happens (and it does happen), you are
+                going back to Neopia City.
+              </p>
+              <p>
+                Luckily, it's not all doom and gloom versus Gors. You can
+                outlevel him to the point where he is no longer an issue, and
+                you will likely resist some of his poison and stunblast procs.
+                Keep your HP as high as possible without wasting potions in case
+                you get hit with a stunblast, and you should come out on top if
+                you don't get unlucky. Gors is a worthy keeper of the Staff of
+                Ni-tas, required for your next and very significant weapon
+                upgrade.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="images/rollay_scaleback.png" alt="Image of Rollay" />
+            </td>
+            <td>Rollay Scaleback</td>
+            <td>
+              <ul>
+                <li>3-turn stun</li>
+                <li>25% HP restore</li>
+              </ul>
+            </td>
+            <td>
+              <p>
+                Honestly, Rollay is a walk in the park compared to Gors. Not
+                only is his level filled with very good opportunities to
+                powerfarm, but he also doesn't possess any outstanding
+                abilities. He's also completely optional if you don't mind
+                fighting Faleinn at full power (don't do this), but his dungeon
+                leads very well into the next section of the game, the Techo
+                Caves.
+              </p>
+              <p>
+                As I mentioned, Rollay does not have any elemental blasts. His
+                3-turn stun may look scary, but you will realize that it is
+                harmless without additional threats. I think you could easily
+                survive even 6 turns of being stunned if you aren't
+                underlevelled, and his heal does nothing but prolong the fight a
+                little more, which is no issue if you are running the Nature
+                Wand and haven't burned all your potions.
+              </p>
+              <p>
+                There is little to say in terms of strategy about Rollay. Don't
+                let your health dip too low and keep attacking until you win. He
+                will give you a very useful item for later.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="images/archmagus_of_roo.png" alt="Image of Archmagus" />
+            </td>
+            <td>The Archmagus of Roo</td>
+            <td>
+              <ul>
+                <li>
+                  50 damage <span class="red-text">fire</span>/<span
+                    class="blue-text"
+                    >ice</span
+                  >
+                  blasts
+                </li>
+                <li class="bold-item">
+                  3-turn stun + 40 damage
+                  <span class="red-text">fire</span>/<span class="blue-text"
+                    >ice</span
+                  >
+                  blasts
+                </li>
+                <li>40% HP restore</li>
+                <li>50 HP drain</li>
+              </ul>
+              <p>
+                Drain is among the largest HP swings in the game, a whole 100 HP
+                difference in this case.
+              </p>
+            </td>
+            <td>
+              <p>
+                The Archmagus of Roo is the face of Neoquest and what many would
+                consider to be one of the toughest bosses in the game. I would
+                tend to agree, as he is basically Gors on steroids, and not only
+                does he heal a lot, but he heals more often. On the other hand,
+                he is also what I would call entirely skippable with little
+                consequence because a weapon upgrade is coming at level 42, but
+                you can fight him if you want.
+              </p>
+              <p>
+                On top of the potential 6-turn stun when the Archmagus dualcasts
+                his stunblast, you'll also notice that he has a lot more going
+                on in the sustain department. One heal will wipe out multiple
+                turns of damage that you dealt, and his drain is arguably even
+                worse, chunking you for 50 damage (roughly 27% of your HP at
+                level 33) and restoring it to himself. As a result, the fight
+                can go much longer than you would expect if you did not level
+                properly.
+              </p>
+              <p>
+                Like most bosses in this game though, the battle can be made
+                significantly easier just by outlevelling the Archmagus, and
+                even trivialized if you go high enough. If you plan to fight him
+                normally, then just be liberal with your healing, keeping your
+                HP topped up so that you don't get caught off guard when his
+                3-turn stunblast hits. You will very likely see him go below 100
+                HP only to see him heal it all back, but again you should win
+                the sustain war with the number of Strong/Greater Healing
+                Potions that you have stashed, and you will soon be able to
+                craft the Life Staff that grants you a free 100 HP heal every
+                battle, so don't skimp on the potion usage.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="images/guardian_of_life_magic.png"
+                alt="Image of Life Magic Guardian"
+              />
+              <img
+                src="images/guardian_of_ice_magic.png"
+                alt="Image of Ice Magic Guardian"
+              />
+              <img
+                src="images/guardian_of_fire_magic.png"
+                alt="Image of fire Magic Guardian"
+              />
+              <img
+                src="images/guardian_of_spectral_magic.png"
+                alt="Image of Spectral Magic Guardian"
+              />
+              <img
+                src="images/guardian_of_shock_magic.png"
+                alt="Image of Shock Magic Guardian"
+              />
+            </td>
+            <td>The Guardians of Elemental Magic</td>
+            <td>
+              <ul>
+                <li>75 HP restore (life)</li>
+                <li>
+                  70 damage <span class="blue-text">ice</span> blast (ice)
+                </li>
+                <li>
+                  70 damage <span class="red-text">fire</span> blast (<span
+                    class="red-text"
+                    >fire</span
+                  >)
+                </li>
+                <li>Disable - decrease defence (spectral)</li>
+                <li>4-turn stun (shock)</li>
+                <li>70 HP drain (all guardians)</li>
+              </ul>
+            </td>
+            <td>
+              <p>
+                The Elemental Magic Guardians are your one stop shop for endgame
+                weapon upgrades. None of them are particularly difficult, but
+                each one has a special ability related to the elemental magic
+                that they represent. There is no particular order that you need
+                to fight the guardians, but I highly recommend that you fight
+                the Guardian of Life Magic first to pick up the Moonstone Staff
+                since it a major QoL upgrade for the rest of the game.
+              </p>
+              <p>
+                I'd like you to take note right now that every boss in the
+                Mountain Fortress possesses a 70 HP drain, which should not be
+                too surprising or dangerous at this point. Just keep it in mind
+                as I may not touch on it much later on in the section.
+              </p>
+              <p>
+                The Guardian of Life Magic is what I would call the single most
+                pleasant boss fight in the game. Not only does it not have any
+                elemental magic at all, a rarity for bosses at this stage of the
+                game, but it also drops arguably the best general-purpose weapon
+                in the game as a reward as well.
+              </p>
+              <p>
+                The only thing really noteworthy thing about the Guardian of
+                Life Magic is that it has considerably higher HP than its other
+                elemental counterparts. It has a decent drain, but given that
+                the only other way for it to attack you is its basic attack,
+                there is little danger in this fight. As long as you keep your
+                HP above 70 and keep wailing away at it, you should have little
+                trouble defeating the Guardian of Life Magic and getting your
+                endgame weapon upgrade.
+              </p>
+              <p>
+                The next bosses that we will talk about are the Guardian of Ice
+                Magic, and the Guardian of
+                <span class="red-text">fire</span> Magic. To be entirely honest,
+                these bosses should be a cakewalk after getting your Moonstone
+                Staff. In fact, even the enemies that you fight in their
+                respective areas can deal more damage than each of them can, so
+                they are essentially slightly stronger mooks. The only thing
+                that you need to worry about is getting chunked for 90 damage by
+                the <span class="red-text">fire</span> guardian or 70 damage by
+                the ice guardian, which is definitely not pleasant, and they
+                also both have a 70 HP drain as well. Since neither of these
+                bosses can stun you, just keep your HP above 100 and you will
+                win guaranteed. As a side note, the Iceheart Staff is incredibly
+                powerful in its own right, not for random encounters but for the
+                endgame bosses, but more on that in the equipment section.
+              </p>
+              <p>
+                The second last boss in this area is the Guardian of Spectral
+                Magic, and it very well may be the easiest boss in the game at
+                this point. Its only unique skill is a defence disable, which
+                increases the chance of the enemy hitting you on subsequent
+                turns. Given that it can only basic attack you for damage, if
+                you invested in Spectral, this boss may be the easiest one in
+                the game because you will dodge many of its attacks. If not, you
+                will use a few extra potions. Either way, an incredibly easy
+                fight.
+              </p>
+              <p>
+                The final boss we will talk about in this section is the
+                Guardian of Shock Magic. While a 4-turn stun may sound
+                intimidating, this guy will also do nothing except basic attack
+                you during those turns. Don't forget about the drain though.
+                Despite the lack of elemental damage skills, this guardian may
+                be the most dangerous fight in this section if you get hit a lot
+                with drains or attacks during the stuns, so I recommend that you
+                keep your HP topped up during this encounter. If you are running
+                a Shock-focused build, the Thunderstar Staff is also a very
+                viable endgame weapon choice because it increases the chance of
+                a Shock Weapons proc.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="images/faleinn.png" alt="Image of Faleinn" />
+            </td>
+            <td>Faleinn</td>
+            <td>
+              <ul>
+                <li class="bold-item">3-turn stun + 70 shock damage</li>
+                <li>
+                  70 damage <span class="red-text">fire</span>/<span
+                    class="blue-text"
+                    >ice</span
+                  >
+                  blasts
+                </li>
+                <li>90 HP drain</li>
+              </ul>
+            </td>
+            <td>
+              <p>
+                Depending on choices that you have made so far in the game,
+                Faleinn can either be the easiest or the absolute most difficult
+                boss fight in the entire game, and I believe that this is by
+                design as a reward for restoring the Kelladrian Medallion to its
+                original form in Sunny City, or as a punishment for neglecting
+                to do so depending on how you look at it. The good news is that
+                if you played the game properly, you can show Faleinn the
+                Kelladrian Medallion in battle to instantly defeat her. However,
+                if you skipped Rollay Scaleback, who drops the Rusty Medallion,
+                or were either too lazy or forgot to meet Gali Yoj at Sunny City
+                to polish it, then you will have to face her head-to-head.
+              </p>
+              <p>
+                Faleinn is very different from every other boss in the game
+                because she seems to be the only one who almost completely
+                neglects basic attacking in favour of spamming her elemental
+                abilities. It is extremely common to go start this battle and
+                instantly be hit with a stunblast, losing 70 HP (roughly 27% of
+                your total HP at this point) of your health and being unable to
+                move for 3 turns. During those 3 turns, she will very likely
+                follow up with 70 damage elemental blasts as well, or if you are
+                unlucky enough, she will chain another stun and you will lose.
+                In addition to that, she has a 90 HP drain, swinging the fight
+                by an entire 180 HP. This is the only boss outside of the final
+                three where you have to watch your potions because it is very
+                possible to lose most of them just to survive her damage. When
+                you get her low, she will heal, and you will be right back to
+                where you started minus a couple of potions.
+              </p>
+              <p>
+                Faleinn can one hundred to zero you in just 4 turns, a distinct
+                possibility off any stunblast that you do not resist. Your
+                health has to be 90%+ for the entire duration of the fight, and
+                you may still find yourself back at Neopia City anyway. Do not
+                be surprised at all if this happens.
+              </p>
+              <p>
+                How this battle usually plays out is that Faleinn will
+                consistently chunk you for 70-90 damage on most turns depending
+                on the ability that she uses. Your opportunity to attack is when
+                you find yourself at near max HP at the beginning of a turn.
+                This could be from outhealing her damage on the previous turn,
+                when you resist an elemental blast, or when she attacks and
+                misses or simply deals low damage. Then you cross your fingers
+                and hope that you do not get stunblasted, and you repeat this
+                cycle until you eventually whittle her down. Of all battles in
+                this game, this is arguably the most RNG-dependent one aside
+                from maybe Jahbal.
+              </p>
+              <p>
+                As a side note, be sure to restore your Greater Healing Potions
+                from the mobs outside Kal Panning if you fought Faleinn without
+                the medallion. If you forget to do so and pass through the cave
+                to the Two Rings section of the game,
+                <strong>you are out of luck</strong>. Two Rings enemies do not
+                drop Greater Healing Potions, and the only way to get more is to
+                die and go back to an area where they drop. This is not an
+                option on InSaNe, meaning that you have permanently lost a
+                significant chunk of your health stores for the consecutive
+                endgame boss fights. That being said, if you chose to fight
+                Faleinn without the medallion on InSaNe, you have bigger
+                problems...
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="images/jahbal.png" alt="Image of Jahbal" />
+            </td>
+            <td>Jahbal</td>
+            <td>
+              <ul>
+                <li class="bold-item">3-turn stun + 70 shock damage</li>
+                <li>
+                  90 damage <span class="red-text">fire</span>/<span
+                    class="blue-text"
+                    >ice</span
+                  >
+                  blasts
+                </li>
+                <li class="bold-item">5-turn 50 damage poison</li>
+                <li>Defence disable</li>
+                <li>150 HP restore</li>
+                <li>100 HP drain</li>
+              </ul>
+            </td>
+            <td>
+              <p>
+                Jahbal is the first of potentially three big bads that you will
+                meet at the end of the game depending on the difficulty level
+                that you selected, and your encounter with him will set the
+                stage for your other battles. This is never an easy fight, and
+                you will want to make sure that your potion inventory is as
+                close to maxed as possible before coming in, even the Strong and
+                Standard variants.
+              </p>
+              <p>
+                Much like Faleinn, Jahbal is not only a certified potion
+                drainer, but also a genuine one hundred to zero threat on any
+                given turn thanks to his stunblast. Even worse, his 90 damage
+                elemental blasts will remove 33% of your max HP each turn when
+                they fully land. If you thought that sounded bad, I am not
+                finished yet. He can inflict a 5-turn 50 damage poison on you,
+                and recall that the poison proc is a separate damage tick,
+                meaning that he can also separately chunk you with a stunblast,
+                taking 120 damage from your health bar and still leaving you
+                stunned for 3 turns. If this happens, you will need a miracle to
+                survive both the poison and his attacks at the same time.
+              </p>
+              <p>
+                Jahbal is no slouch in the sustain department either. Even worse
+                than his elemental damage, his drain siphons 100 HP (37% of your
+                max health, fair and balanced) and adds it to himself. Along
+                with his 150 HP restore, I think you can see why he poses a
+                genuine threat to your potion supply. Do not be surprised if you
+                have spent ten turns landing damage only for him to drain you
+                and then restore himself to full HP while leaving you down a few
+                potions.
+              </p>
+              <p>
+                Lastly, Jahbal can disable your defence and heavily increase his
+                hit rate against you. While much less dangerous than everything
+                else listed above, consecutive basic attacks still deal heavy
+                damage and force you to heal, so you'll be happy if you decided
+                to invest in Spectral magic.
+              </p>
+              <p>
+                With all that said, you may ask what the strategy is here. There
+                are a couple of routes that you can take depending on the skill
+                trees that you invested in. The most obvious choice would be the
+                Moonstone Staff because it not only alleviates the heavy potion
+                usage required for Jahbal, but it does so in the form of passive
+                healing from its regeneration and ability, potentially saving
+                your life when you are stun-locked. Regardless of your build, if
+                in doubt, this is the correct choice.
+              </p>
+              <p>
+                Another interesting choice would be the Thunderstaff Staff if
+                you are running a Shock build. The increased stun chance for
+                Shock Weapons is generally good, the passive stun chance from
+                Staggering Stun can save you from a surprising amount of damage
+                over the course of a fight, and it may also be a lifesaver if it
+                procs when you are stunned. This weapon feels less safe than the
+                Moonstone Staff because you don't get direct healing, but every
+                turn that your enemy is stunned is a turn where you are
+                guaranteed to not take damage. Highly recommended as well.
+              </p>
+              <p>
+                If you are running an attack-focused Ice build, then the
+                Iceheart Staff may actually optimal choice here because of its
+                boost to the proc rate of your Ice skills, and more importantly,
+                its incredibly powerful active skill, Ice Wind. I will not
+                discuss details about it here because weapons have their own
+                dedicated section, but Ice Wind essentially give you an extra
+                passive stun chance for several turns on top of anything you are
+                inflicting from basic attacks. I have tested this on Evil and it
+                is completely viable.
+              </p>
+              <p>
+                With the weapon choice out of the way, there is actually quite
+                little to say in terms of specific strategy. Your health must be
+                maxed or close to it every single turn of this fight. If you
+                have been hit by a disable, chances are that you will need to
+                spam Strong Healing Potions until it wears off because his basic
+                attack accuracy will be off the charts. If you are affected by a
+                poison, same idea. Do not take chances gambling that you will
+                resist the poison. A stunblast with poison or disable active all
+                but guarantees a loss even from full health, so you need to
+                minimize the risk here. Do not try to save potions in this
+                fight. Heal every time it is necessary, topping up your HP bar
+                every turn. With some luck and patience, you should win.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="images/mastermind.png" alt="Image of Mastermind" />
+            </td>
+            <td>Mastermind</td>
+            <td>
+              <ul>
+                <li class="bold-item">
+                  120 damage <span class="red-text">fire</span>/<span
+                    class="blue-text"
+                    >ice</span
+                  >
+                  blasts
+                </li>
+                <li>3-turn 50 HP drain</li>
+              </ul>
+              <p>
+                For reference:
+                <br />
+                120/270 =
+                <span class="orange-text">44% of your max health.</span>
+                <br />
+                (120 + 50)/270 =
+                <span class="red-text bold-item"
+                  >62.9% of your max health.</span
+                >
+              </p>
+            </td>
+            <td>
+              <p>
+                The good news is that if you got past Jahbal, Mastermind is a
+                cake walk in the majority of cases. He has no stun at all, so
+                the way to beat him is very straightforward. However, the
+                simplicity of this fight is also what can be a major stress
+                factor depending on how your fight with Jahbal went. If you have
+                a healthy potion supply, then beating Mastermind is a formality.
+                On the other hand, if your supply is starting to dwindle, then
+                you may want to start worrying.
+              </p>
+              <p>
+                Mastermind dishes out tons of damage with his elemental blasts,
+                each one consumes a full Superior Healing Potion worth of
+                health. He doesn't quite spam them like Faleinn, but if you get
+                unlucky enough, you will be burning potions very quickly. Like
+                other endgame bosses, Mastermind also has a drain as his source
+                of sustain, and it theoretically heals 50% more than the most
+                powerful drains in the game, dealing 150 damage over three
+                turns. This also means that you get three chances to resist the
+                drain rather than one though. However, the important thing to
+                remember about this ability is that it is a passive proc after
+                the initial cast. What this means is that
+                <strong
+                  >Mastermind can hit you with 120 damage elemental blasts on
+                  the same turn that it procs</strong
+                >. This is more damage than any single healing potion in the
+                game can recover, and it happens more often than you might
+                think. Because of this, there is a 171 HP threshold that you
+                must meet every turn that Mastermind's drain is active.
+                Otherwise, you risk losing 63% of your HP in one turn and dying.
+                Technically, it's not impossible for him to do multiple times
+                during the drain, so if you really want to be cautious, stay
+                above 191 HP in case he does this combo twice in a row.
+              </p>
+              <p>
+                With all that said, Mastermind is still a significantly easier
+                fight than Jahbal, and you should have little to no issues if
+                you have invested some points into Shock magic, Fortitude
+                specifically. I will say that I was dangerously close to running
+                out of potions when I ran Evil mode on a
+                <span class="red-text">fire</span> build because of the small
+                number of points in Fortitude, but it was also just an unlucky
+                run. Full Life and full Shock builds should breeze through him.
+                Just remember, 171 HP whenever a drain is active, or 121 HP
+                otherwise are the minimum values to meet for any given turn.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img
+                src="images/xantan_reborn.png"
+                alt="Image of Xantan Reborn"
+              />
+            </td>
+            <td>Xantan Reborn</td>
+            <td>
+              <ul>
+                <li>very accurate 50 damage blasts</li>
+              </ul>
+            </td>
+            <td>
+              <p>
+                For being the big bad at the end of the hardest game mode,
+                Xantan Reborn is a walk in the park. He is relatively tanky with
+                1000 HP to his name, but with no real abilities or even a source
+                of sustain, I am inclined to think that the game devs purposely
+                made him weak because of the two previous bosses that you faced.
+                Unless you are running out of potions of course, which you very
+                well may be at this point.
+              </p>
+              <p>
+                Xantan's only quirk is that every attack he lands will deal
+                exactly 50 damage, and his hit rate is extremely high. Nearly
+                every turn that he is not stunned, he will hit you for 50
+                damage. That's less damage than a Strong Healing Potion though.
+                Not only that, but he's also very weak against Spectral magic
+                because of his basic attack dependency, meaning that Spectral
+                users can take full advantage of Evasion and Reflex in this
+                fight.
+              </p>
+              <p>
+                Regardless of the skill trees that you chose, if you made it
+                this far, then Xantan Reborn should go down without much
+                trouble. You don't have to worry about potion usage anymore, and
+                even your lower tier potions should suffice for healing against
+                him. You are basically fighting a really tanky mook, and it will
+                definitely feel like it.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section id="footer">
+        <div class="image-container">
+          <img
+            src="images/tubbs_full.png"
+            alt="Tubbs"
+            onclick="playAudio('audio/fillmore8.wav');toggleCaption('footer-caption', 'lmao')"
+          />
+          <figcaption id="footer-caption"></figcaption>
+        </div>
+        &copy; 2024 William Ngo. All Rights Reserved or something like that
+      </section>
+    </div>
+  </body>
+</html>

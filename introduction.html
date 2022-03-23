@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>A Commentary-Based Neoquest Guide</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <section id="header">
+        <h1><a href="index.html">A Commentary-Based Neoquest Guide</a></h1>
+        <script src="scripts/myscripts.js"></script>
+        <div class="image-with-text">
+          <img
+            src="images/archmagus.png"
+            onclick="playAudio('audio/fillmore.wav');toggleCaption('header-caption', 'lol')"
+          />
+          <figcaption id="header-caption"></figcaption>
+        </div>
+      </section>
+      <section>
+        <nav id="sidebar">
+          <ul>
+            <a href="index.html">Home</a>
+            <a href="introduction.html">Introduction</a>
+            <a href="mechanics.html">Gameplay Mechanics</a>
+            <a href="weapons_and_armour.html">Weapons and Armour</a>
+            <a href="skills_analysis.html">Skills Analysis</a>
+            <a href="recommended_builds.html">Recommended Builds</a>
+            <a href="boss_analysis.html">Boss Analysis</a>
+            <a href="walkthrough.html">Walkthrough</a>
+          </ul>
+        </nav>
+      </section>
+
+      <section id="content">
+        <h2>Introduction</h2>
+        <p>
+          At its core, Neoquest is an old school RPG that is all about the
+          grind. You will spend the vast majority of your time fighting monsters
+          to level up and get your skill points to complete your build. The
+          other thing you do a lot of is walking around in the overworld, so if
+          you don't like taking time to move across the map and go to new areas,
+          Neoquest might not be your game. In addition, there is a legitimate
+          storyline that you can explore by talking to NPCs, though it isn't at
+          all necessary if you just want to complete the game. To be honest, I
+          couldn't tell you what it's about, but I'm sure it's great!
+        </p>
+        <p>
+          So how does Neoquest work? Well, it's a PHP RPG, and it requires a
+          page reload for every action you take. Players do everything from
+          moving around the map, spending skillpoints, and fighting monsters all
+          by clicking links that perform the desired action. Attacking, using
+          potions, fleeing, you name it.
+        </p>
+        <p>
+          But before you get too excited, let me tell you the honest truth.
+          Neoquest's core gameplay can essentially be reduced to clicking the
+          attack button and seeing what happens. That's the whole reason that I
+          am writing this guide: the skill theorycrafting and analysis of the
+          different playstyles is far more exciting than the actual gameplay.
+        </p>
+        <p>
+          So before you get started, let me tell you something else: the vast
+          majority of the bosses in Neoquest are optional. In theory, you can
+          complete the game just by beating the penultimate and final boss(es),
+          though you'd be hurting for equipment for the majority of the game of
+          course. I'm just saying that very few bosses are mandatory. So what
+          does that mean? It means we only have to fight the bosses that are
+          useful to us, i.e. the ones that drop equipment, components, or useful
+          items.
+        </p>
+      </section>
+      <section id="footer">
+        <div class="image-container">
+          <img
+            src="images/tubbs_full.png"
+            alt="Tubbs"
+            onclick="playAudio('audio/fillmore8.wav');toggleCaption('footer-caption', 'lmao')"
+          />
+          <figcaption id="footer-caption"></figcaption>
+        </div>
+        &copy; 2024 William Ngo. All Rights Reserved or something like that
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>A Commentary-Based Neoquest Guide</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <section id="header">
+        <h1><a href="index.html">A Commentary-Based Neoquest Guide</a></h1>
+        <script src="scripts/myscripts.js"></script>
+        <div class="image-with-text">
+          <img
+            src="images/archmagus.png"
+            onclick="playAudio('audio/fillmore.wav');toggleCaption('header-caption', 'lol')"
+          />
+          <figcaption id="header-caption"></figcaption>
+        </div>
+      </section>
+      <section>
+        <nav id="sidebar">
+          <ul>
+            <a href="index.html">Home</a>
+            <a href="introduction.html">Introduction</a>
+            <a href="mechanics.html">Gameplay Mechanics</a>
+            <a href="weapons_and_armour.html">Weapons and Armour</a>
+            <a href="skills_analysis.html">Skills Analysis</a>
+            <a href="recommended_builds.html">Recommended Builds</a>
+            <a href="boss_analysis.html">Boss Analysis</a>
+            <a href="walkthrough.html">Walkthrough</a>
+          </ul>
+        </nav>
+      </section>
+
+      <section id="content">
+        <h2>Game Mechanics</h2>
+        <p>
+          I may have said it before, but Neoquest isn't the most difficult game
+          in the world. However, the game is no walk in the park if you play it
+          blind. In this section, you will learn about a few key mechanics
+          related to battling. Keep them in mind and you won't lose a single
+          battle the entire game (unless you get really, really unlucky).
+        </p>
+        <p>
+          <span class="red-text bold-item"
+            >Core Game Mechanic: Level Difference + Hit Rate.</span
+          ><br />
+          Extremely simple, yet perhaps the most important mechanic in the game.
+          Your level compared to the enemy's level determines not only how often
+          you hit/miss, but also how often they hit you. If you find yourself
+          one level under, you start missing a lot and will find your potions
+          diminishing. If you are two levels under or more, it will seem nearly
+          impossible to hit your enemy. Likewise, the same is true for your
+          enemies. Once you gain a level or two over them, it should be smooth
+          sailing. Later on in the skills section, we will talk about how one
+          particular skill tree (Fire) can get around this mechanic, but
+          otherwise treat it as law.
+        </p>
+        <p>
+          <span class="red-text bold-item"
+            >Core Game Mechanic: Elemental Resistance</span
+          ><br />
+          Elemental attacks are among the most devastating attacks in the game.
+          In the endgame, you would be hard-pressed to find a monster, let alone
+          a boss that doesn't have one of these. Monsters will regularly chunk
+          you for 80-100 damage, and bosses will hit you with a nasty 70 Shock
+          damage + 3 turn stun combo. Your health at max level is 270, by the
+          way. Simply put, it's unreasonable to expect yourself to heal through
+          all this damage. So what's the good news? Unlike basic attacks,
+          elemental damage can be resisted partially or entirely, and you can
+          increase your resistance to it via the Fortitude skill in the Shock
+          skill tree. This means that Fortitude is almost an essential skill if
+          you want to reliably take on the endgame bosses.<br /><br />
+
+          You can win a game without Fortitude. You will not have fun doing so.
+          You have been warned.
+        </p>
+
+        <p>
+          <span class="red-text bold-item"
+            >Minor Game Mechanic: Weapon-Skill Tree Synergy</span
+          ><br />
+          So here's a fun mechanic. There are a huge number of passive skills in
+          most skill trees that simply activate when you attack. What's so
+          interesting about that? Well, most of them gain increased strength if
+          you use a weapon with a matching elemental type! Not only does the
+          proc rate massively increase in most cases, but the damage of a couple
+          of these skills literally doubles. In the early game, you can
+          consistently be dealing multiple times your regular attack damage when
+          your passive skills proc. Just think about that.
+        </p>
+
+        <p>
+          I truly think that these are the only mechanics a player needs to know
+          to win any random encounter, and also most boss fights. You can plan
+          around them accordingly, so there's no excuse for not doing so! Of
+          course, if you want to go for a non-standard build or take some risks,
+          there's nothing wrong with that. Play the game the way that you enjoy
+          it.
+        </p>
+
+        <p>
+          Fun fact: you used to be able to heal while stunned by copy-pasting
+          the URL for using a particular healing potion, essentially
+          guaranteeing you victory in every fight. However, I believe that got
+          patched out relatively early on in Neoquest's lifespan, so we're stuck
+          with the chance of getting stunned for 3 rounds and having to replay
+          the entire game on InSaNe.
+        </p>
+      </section>
+      <section id="footer">
+        <div class="image-container">
+          <img
+            src="images/tubbs_full.png"
+            alt="Tubbs"
+            onclick="playAudio('audio/fillmore8.wav');toggleCaption('footer-caption', 'lmao')"
+          />
+          <figcaption id="footer-caption"></figcaption>
+        </div>
+        &copy; 2024 William Ngo. All Rights Reserved or something like that
+      </section>
+    </div>
+  </body>
+</html>
